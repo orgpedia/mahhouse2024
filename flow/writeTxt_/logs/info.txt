@@ -1,25 +1,3 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 29
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403131744412809.pdf missing_cmaps: sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403131744412809.pdf: >शासन निर्णय क्रमांक< >धापुप्रा-२०२२/प्र.क्र.११६/झोपसु<
-	elapsed_time:202403131744412809.pdf: 0.000116
-  exec_task: doc_translator_hf 
-    Paras: #35 Sentences: #0
-	[0]  #words: 262 #sentences: 43
-	After generate: 9 MB
-	[1]  #words: 297 #sentences: 16
-	After generate: 9 MB
-	[2]  #words: 67 #sentences: 1
-	After generate: 9 MB
-  exec_task: text_writer 
-#docs: 29 #processed: 1
+#docs: 29 #processed: 0
