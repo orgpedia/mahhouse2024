@@ -1,9 +1,74 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-31
+32
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151935509009.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151935509009.pdf: >शासन निर्णय क्रमांक< >प्रआयो-२०२३/प्र.क्र.१५४/गृनिधो-२<
+	elapsed_time:202403151935509009.pdf: 0.000093
+  exec_task: doc_translator_hf 
+    Paras: #90 Sentences: #0
+	[0]  #words: 262 #sentences: 65
+	After generate: 4 MB
+	[1]  #words: 259 #sentences: 28
+	After generate: 4 MB
+	[2]  #words: 243 #sentences: 22
+	After generate: 4 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151940147609.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
-#docs: 31 #processed: 2
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151940147609.pdf: >शासन निर्णय क्रमांक< >गिकाघ-२०२३/प्र.क्र.१२८/गृनिधो-२<
+	elapsed_time:202403151940147609.pdf: 0.000113
+  exec_task: doc_translator_hf 
+    Paras: #282 Sentences: #0
+	[0]  #words: 259 #sentences: 88
+	After generate: 4 MB
+	[1]  #words: 260 #sentences: 42
+	After generate: 4 MB
+	[2]  #words: 265 #sentences: 35
+	After generate: 4 MB
+	[3]  #words: 261 #sentences: 29
+	After generate: 4 MB
+	[4]  #words: 265 #sentences: 29
+	After generate: 4 MB
+	[5]  #words: 263 #sentences: 26
+	After generate: 4 MB
+	[6]  #words: 260 #sentences: 25
+	After generate: 4 MB
+	[7]  #words: 267 #sentences: 25
+	After generate: 4 MB
+	[8]  #words: 264 #sentences: 25
+	After generate: 4 MB
+	[9]  #words: 116 #sentences: 10
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403181823080709.pdf: Unable to find order
+	elapsed_time:202403181823080709.pdf: 0.000041
+  exec_task: doc_translator_hf 
+    Paras: #61 Sentences: #0
+	[0]  #words: 263 #sentences: 47
+	After generate: 4 MB
+	[1]  #words: 257 #sentences: 23
+	After generate: 4 MB
+	[2]  #words: 12 #sentences: 1
+	After generate: 4 MB
+  exec_task: text_writer 
+#docs: 32 #processed: 3
